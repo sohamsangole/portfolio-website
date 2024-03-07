@@ -11,7 +11,7 @@ const myFont = localFont({
 
 
 export const metadata = {
-  title: "<SohamSangole />",
+  title: "Soham Sangole | Portfolio",
   description: "Personal Portfolio",
 };
 

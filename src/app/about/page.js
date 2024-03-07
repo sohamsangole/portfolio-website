@@ -10,7 +10,7 @@ const AboutPage = () => {
                 <button onClick={() => window.location.href = "/"}>[Home]</button>
                 <DropDownMenu />
             </div>
-            <h1 className='text-red-500 mb-4 text-2xl lg:text-5xl font-extrabold scroll-px-96 lg:px-96 flex items-center justify-center m-8'>About Me :)</h1>
+            <h1 className='text-blue-500 mb-4 text-2xl lg:text-5xl font-extrabold scroll-px-96 lg:px-96 flex items-center justify-center m-8'>About Me :)</h1>
             <div className=' py-7 '>
                 <p className='text-sm  scroll-px-96 lg:px-96 '>Hello, fellow coder!My name is Soham Sangole, I was born in 2003 in India.
                     I completed my high school education in 2019 and am currently enrolled in college in VJTI, Mumbai.
@@ -22,7 +22,7 @@ const AboutPage = () => {
             </div>
             <hr className='mx-0 lg:mx-96' />
             <div className=' py-7 '>
-                <h1 className='text-blue-500 text-xl lg:text-2xl m-4'>Hobbies & Interests</h1>
+                <h1 className='text-red-500 text-xl lg:text-2xl m-4'>Hobbies & Interests</h1>
                 <p className='text-sm  scroll-px-96 lg:px-96'>
                     I spend most of my time on laptop because my hobbies include video editing,
                     crafting cinematic masterpieces one clip at a time. Whether it's adding slick transitions or
@@ -35,7 +35,7 @@ const AboutPage = () => {
             </div>
             <hr className='mx-0 lg:mx-96' />
             <div className=' py-7 '>
-                <h1 className='text-blue-500 text-xl lg:text-2xl m-4'>Educational Background</h1>
+                <h1 className='text-red-500 text-xl lg:text-2xl m-4'>Educational Background</h1>
                 <p className='text-sm  scroll-px-96 lg:px-96'>
                     My educational journey has been a mix of fun and challenges. School was a blast,
                     filled with memories and friendships that I'll cherish forever. However, the transition to
@@ -47,7 +47,7 @@ const AboutPage = () => {
             </div>
             <hr className='mx-0 lg:mx-96' />
             <div className=' py-7 '>
-                <h1 className='text-blue-500 text-xl lg:text-2xl m-4'>Technologies that i use</h1>
+                <h1 className='text-red-500 text-xl lg:text-2xl m-4'>Technologies that i use</h1>
                 <p className='text-sm  scroll-px-96 lg:px-96'>
                     Programming Languages: Python, Java, Dart, Golang, SQL <br />
                     Tech Stack: Machine Learning, App Development, Web Development <br />
