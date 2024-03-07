@@ -9,7 +9,7 @@ const HeroSection = () => {
                     <p className="text-white text-lg lg:text-xl">I am a third year IT Student</p>
                     <div className=' self-center'>
                         <button className='py-3 mr-4 text-white mt-4 hover:text-red-500 duration-1000'>[View CV]</button>
-                        <button className='py-3 mr-4 text-white mt-4 hover:text-red-500 duration-1000'>[About]</button>
+                        <button onClick={() => window.location.href = "/about"} className='py-3 mr-4 text-white mt-4 hover:text-red-500 duration-1000'>[About]</button>
                     </div>
                 </div>
             </div>
