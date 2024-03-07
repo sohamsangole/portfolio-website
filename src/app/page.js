@@ -5,6 +5,7 @@ import DropDownMenu from './components/DropDownMenu';
 
 const Home = () => {
   return (
+
     <main className={`bg-[#121212] px-6 py-4 h-screen flex flex-col justify-between`} >
       <div className="flex justify-end ">
         <DropDownMenu />
