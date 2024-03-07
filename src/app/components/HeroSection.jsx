@@ -4,7 +4,7 @@ const HeroSection = () => {
     return (
         <section>
             <div className='grid lg:grid-cols-12 mx-auto'>
-                <div className=' col-start-3 col-span-8'>
+                <div className=' col-start-3 col-span-8 text-center'>
                     <h1 className="text-blue-500 mb-4 text-3xl lg:text-5xl font-extrabold">Hi! I am Soham</h1>
                     <p className="text-white text-lg lg:text-xl">I am a third year IT Student</p>
                     <div className=' self-center'>
