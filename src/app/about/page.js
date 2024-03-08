@@ -2,6 +2,7 @@
 "use client";
 import React from 'react'
 import DropDownMenu from '../components/DropDownMenu'
+import SlideShow from './slideshow';
 
 const AboutPage = () => {
     return (
@@ -36,6 +37,8 @@ const AboutPage = () => {
             <hr className='mx-0 lg:mx-96' />
             <div className=' py-7 '>
                 <h1 className='text-red-500 text-xl lg:text-2xl m-4'>Educational Background</h1>
+
+                <SlideShow />
                 <p className='text-sm  scroll-px-96 lg:px-96'>
                     My educational journey has been a mix of fun and challenges. School was a blast,
                     filled with memories and friendships that I'll cherish forever. However, the transition to
