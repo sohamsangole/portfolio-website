@@ -1,0 +1,32 @@
+[
+    {
+        "id": 1,
+        "name": "University Probability Predicter",
+        "description": "Developed a web-based machine learning model to estimate university acceptance probability using GPA and test scores."
+    },
+    {
+        "id": 2,
+        "name": "Humanitarian Mapping",
+        "description": "Analyzed building dispersion, aiding decision-makers and urban planners for data-driven urban development."
+    },
+    {
+        "id": 3,
+        "name": "Automatic Snake Game",
+        "description": "Developed an automatic Snake Game using Reinforcement Learning for analysis."
+    },
+    {
+        "id": 4,
+        "name": "Personal Website",
+        "description": "Developed personal website using Next.js for clear presentation of projects and skills."
+    },
+    {
+        "id": 5,
+        "name": "SwasthSaathi",
+        "description": "Developed SwasthSaathi, a healthcare app aimed at simplifying medical appointment scheduling, enhancing patient experience, and optimizing hospital operations."
+    },
+    {
+        "id": 6,
+        "name": "Linear-Regression-Simulator",
+        "description": "Developed a Linear Regression Simulator to visualize and understand the linear regression algorithm through interactive demonstrations."
+    }
+]
