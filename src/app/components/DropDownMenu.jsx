@@ -16,6 +16,9 @@ const DropDownMenu = () => {
                 <Menu.Item>
                     <button className="block px-4 py-2 text-sm text-white hover:text-red-500 duration-1000" onClick={() => window.location.href = "https://www.linkedin.com/in/sohamsangole/"}>LinkedIn</button>
                 </Menu.Item>
+                <Menu.Item>
+                    <button className="block px-4 py-2 text-sm text-white hover:text-red-500 duration-1000" onClick={() => window.location.href = "/about"}>About Me</button>
+                </Menu.Item>
             </Menu.Items>
         </Menu>
     )
