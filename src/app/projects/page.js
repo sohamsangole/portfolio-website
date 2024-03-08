@@ -2,9 +2,14 @@
 
 import React, { useState, useEffect } from 'react';
 import DropDownMenu from '../components/DropDownMenu'
+import Image from 'next/image';
 
 const getColorAtIndex = (index) => {
     return index % 20 - 1;
+};
+
+const openGithubLink = (githubLink) => {
+    window.open(githubLink, '_blank');
 };
 
 const Projects = () => {
@@ -43,9 +48,15 @@ const Projects = () => {
                                     cursor: 'pointer'
                                 }}
                                 className={`my-2 w-full text-left text-black text-lg px-4 py-2 rounded-md `}
+                                onClick={() => openGithubLink(project.github_link)}
                             >
-                                <h2 className='py-1 text-lg'>{project.name}</h2>
-                                <p className='text-xs'>{project.description}</p>
+                                <div className="flex items-center justify-start">
+                                    <Image src="/assets/github-mark.png" height={30} width={30} alt="Slide 1" />
+                                    <div className='px-4'>
+                                        <h2 className='py-1 text-lg'>{project.name}</h2>
+                                        <p className='text-xs'>{project.description}</p>
+                                    </div>
+                                </div>
                             </button>
                         ))}
                 </div>
