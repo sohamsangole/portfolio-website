@@ -19,7 +19,7 @@ This repository contains the source code for my personal website built using Nex
 
 ## Setup Instructions
 1. **Clone Repository:** `git clone https://github.com/sohamsangole/portfolio-website`
-2. **Install Dependencies:** `cd your-repository` then `npm install`
+2. **Install Dependencies:** `cd portfolio-website` then `npm install`
 3. **Run Development Server:** `npm run dev`
 4. **Open Browser:** Visit `http://localhost:3000` to view the website locally.
 
