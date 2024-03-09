@@ -42,7 +42,7 @@ const HeroSection = () => {
                     <Typing />
                     <div className=' self-center m-4'>
                         <button className='py-3 mr-4 text-white mt-4 hover:text-red-500 duration-1000'>[View CV]</button>
-                        <button onClick={() => window.location.href = "/about"} className='py-3 mr-4 text-white mt-4 hover:text-red-500 duration-1000'>[About Me]</button>
+                        <button onClick={() => window.location.href = "/projects"} className='py-3 mr-4 text-white mt-4 hover:text-red-500 duration-1000'>[Projects]</button>
                     </div>
                 </div>
             </div>

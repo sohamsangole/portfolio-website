@@ -29,11 +29,12 @@ const Projects = () => {
     }, []);
 
     return (
-        <main className={`bg-[#121212] py-6 px-6 min-h-screen flex flex-col justify-between`} >
+        <main className={`bg-[#0c0e10] py-6 px-6 min-h-screen flex flex-col justify-between`} >
             <div className="flex justify-between">
                 <button onClick={() => window.location.href = "/"}>[Home]</button>
-                {/* Assuming DropDownMenu component handles dropdown functionality */}
-                <DropDownMenu />
+                <div>
+                    <DropDownMenu />
+                </div>
             </div>
             <div className="flex items-center justify-center">
                 {/* Render projects as buttons */}

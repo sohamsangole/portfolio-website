@@ -6,10 +6,12 @@ import SlideShow from './slideshow';
 
 const AboutPage = () => {
     return (
-        <main className='bg-[#121212] min-h-screen  flex flex-col justify-between py-6 px-6 text-center'>
+        <main className='bg-[#0c0e10] min-h-screen  flex flex-col justify-between py-6 px-6 text-center'>
             <div className="flex justify-between">
                 <button onClick={() => window.location.href = "/"}>[Home]</button>
-                <DropDownMenu />
+                <div>
+                    <DropDownMenu />
+                </div>
             </div>
             <h1 className='text-blue-500 mb-4 text-5xl lg:text-5xl font-extrabold scroll-px-96 lg:px-96 flex items-center justify-center m-8'>About Me :)</h1>
             <div className=' py-7 '>
