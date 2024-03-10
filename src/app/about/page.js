@@ -8,7 +8,7 @@ const AboutPage = () => {
     return (
         <main className='bg-[#0c0e10] min-h-screen  flex flex-col justify-between py-6 px-6 text-center'>
             <div className="flex justify-between">
-                <button onClick={() => window.location.href = "/"}>[Home]</button>
+                <button className='text-white hover:text-red-500 duration-1000' onClick={() => window.location.href = "/"}>[Home]</button>
                 <div>
                     <DropDownMenu />
                 </div>
