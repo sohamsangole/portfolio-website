@@ -41,7 +41,7 @@ const HeroSection = () => {
                     <h1 className="text-blue-500 mb-4 text-3xl lg:text-5xl font-extrabold">Hi! I am Soham</h1>
                     <Typing />
                     <div className=' self-center m-4'>
-                        <button className='py-3 mr-4 text-white mt-4 hover:text-red-500 duration-1000'>[View CV]</button>
+                        <button className='py-3 mr-4 text-white mt-4 hover:text-red-500 duration-1000' onClick={() => window.open('https://drive.google.com/drive/folders/1UADbdYDpOmguOfvMEN-MJcSao7wyx1bc?usp=drive_link', '_blank')}>[View CV]</button>
                         <button onClick={() => window.location.href = "/projects"} className='py-3 mr-4 text-white mt-4 hover:text-red-500 duration-1000'>[Projects]</button>
                     </div>
                 </div>
